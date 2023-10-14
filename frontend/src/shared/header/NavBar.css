@@ -1,0 +1,105 @@
+.logo a,
+.logo_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #2f4754;
+  text-decoration: none;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.logo__element {
+  padding-right: 1rem;
+}
+
+.logo_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text__360 {
+  color: #74baa1;
+  padding-left: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  padding: 0rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #2f4754;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 1.3rem;
+}
+
+.navbar li a.active,
+.navbar li a:focus {
+
+  background: #74baa1;
+  
+  box-shadow: 0px 3px 4px 0px #00000040;
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.auth__btn {
+  border-radius: 0.57rem;
+  font-weight: 400;
+  background-color: #605dec;
+  border: none;
+  height: 5rem;
+  padding: 1rem;
+  color: #ffffff;
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+
+.auth__btn:hover {
+  background-color: #74baa1;
+}
+
+@media screen and (max-width:600px) {
+  .header{
+    height: 5rem;
+    padding: 0rem 0.3rem;
+  }
+  .logo__element{
+    height: 5rem;
+    width: 5rem;
+  }
+  .logo a,
+.logo_text {
+  font-size: 3rem;
+}
+}
